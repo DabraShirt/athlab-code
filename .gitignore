@@ -98,3 +98,4 @@ mlruns.db
 checkpoints/
 logs/
 data/
+.npy
