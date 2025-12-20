@@ -96,5 +96,5 @@ playground.py
 mlruns/
 mlruns.db
 checkpoints/
-k
-
+logs/
+data/
