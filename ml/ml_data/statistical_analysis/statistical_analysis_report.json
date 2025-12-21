@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-12-20T08:24:26.792907",
+  "analysis_type": "comprehensive_statistical_analysis",
+  "data_summary": {},
+  "primary_performance": {},
+  "effect_sizes": {},
+  "confidence_intervals": {},
+  "permutation_test_results": {
+    "description": "Permutation tests assess significance by comparing observed performance to null distribution",
+    "null_hypothesis": "Classifier performance is no better than random chance",
+    "alternative_hypothesis": "Classifier performance significantly exceeds random chance",
+    "method": "Permute class labels and retrain classifier 1000 times",
+    "interpretation": "p < 0.001 indicates highly significant performance"
+  },
+  "additional_statistical_metrics": {},
+  "power_analysis": {},
+  "statistical_conclusions": []
+}

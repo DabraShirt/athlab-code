@@ -1,0 +1,69 @@
+# GNN Autoencoder Model Configuration
+
+# Base GNN Autoencoder Configuration
+base_gnn_autoencoder:
+  input_dim: 3  # X, Y, Z coordinates
+  hidden_dims: [64, 32, 16]  # Encoder dimensions (decoder mirrors this)
+  gnn_type: "GCN"  # Options: "GCN", "GAT", "GraphSAGE"
+  activation: "ReLU"  # Options: "ReLU", "LeakyReLU", "ELU", "GELU"
+  dropout: 0.1
+  batch_norm: true
+  num_gnn_layers: 3
+
+  # Advanced options
+  residual_connections: false
+  layer_norm: false
+  edge_features: true  # Whether to use edge features
+
+  # GAT specific options (only used if gnn_type is "GAT")
+  gat_heads: 4
+  gat_concat: true
+
+# Temporal GNN Autoencoder Configuration
+temporal_gnn_autoencoder:
+  # Spatial model configuration (inherits from base)
+  spatial_model:
+    input_dim: 3
+    hidden_dims: [64, 32, 16]
+    gnn_type: "GCN"
+    activation: "ReLU"
+    dropout: 0.1
+    batch_norm: true
+    num_gnn_layers: 3
+
+  # Temporal processing configuration
+  temporal_config:
+    rnn_type: "LSTM"  # Options: "LSTM", "GRU", "RNN"
+    rnn_layers: 2
+    rnn_hidden_size: 64
+    rnn_dropout: 0.1
+    bidirectional: false
+
+  # Anomaly detection head
+  anomaly_detection:
+    enabled: true
+    hidden_dim: 32
+    dropout: 0.2
+
+# Lightweight configuration for quick testing
+lightweight_gnn_autoencoder:
+  input_dim: 3
+  hidden_dims: [32, 16]
+  gnn_type: "GCN"
+  activation: "ReLU"
+  dropout: 0.1
+  batch_norm: true
+  num_gnn_layers: 2
+
+# Deep configuration for complex patterns
+deep_gnn_autoencoder:
+  input_dim: 3
+  hidden_dims: [128, 64, 32, 16, 8]
+  gnn_type: "GAT"
+  activation: "ELU"
+  dropout: 0.15
+  batch_norm: true
+  num_gnn_layers: 4
+  gat_heads: 8
+  gat_concat: true
+  residual_connections: true

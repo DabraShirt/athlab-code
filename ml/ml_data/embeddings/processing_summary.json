@@ -1,0 +1,3356 @@
+{
+  "timestamp": "2025-12-19T23:24:49.366997",
+  "config": {
+    "sequence_length": 5,
+    "sequence_step": 3,
+    "output_dir": "ml/ml_data/embeddings_seq5_step3_20251123"
+  },
+  "total_files": 257,
+  "successful": 140,
+  "already_existed": 117,
+  "errors": 0,
+  "total_time_seconds": 9567.31295466423,
+  "results": [
+    {
+      "runner_id": "ID_1",
+      "condition": "Loose",
+      "duration": "12.min",
+      "file_path": "data/ID_1/Loose\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_1_Loose_12_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_1",
+      "condition": "Loose",
+      "duration": "20.min",
+      "file_path": "data/ID_1/Loose\\20.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_1_Loose_20_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_1",
+      "condition": "Loose",
+      "duration": "6.min",
+      "file_path": "data/ID_1/Loose\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_1_Loose_6_min.npy",
+      "embeddings_shape": [
+        1210,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_1",
+      "condition": "Loose",
+      "duration": "recovery",
+      "file_path": "data/ID_1/Loose\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_1_Loose_recovery.npy",
+      "embeddings_shape": [
+        1208,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_1",
+      "condition": "Loose",
+      "duration": "rest",
+      "file_path": "data/ID_1/Loose\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_1_Loose_rest.npy",
+      "embeddings_shape": [
+        1210,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_1",
+      "condition": "Normal",
+      "duration": "12.min",
+      "file_path": "data/ID_1/Normal\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_1_Normal_12_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_1",
+      "condition": "Normal",
+      "duration": "18.min",
+      "file_path": "data/ID_1/Normal\\18.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_1_Normal_18_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_1",
+      "condition": "Normal",
+      "duration": "6.min",
+      "file_path": "data/ID_1/Normal\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_1_Normal_6_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_1",
+      "condition": "Normal",
+      "duration": "recovery",
+      "file_path": "data/ID_1/Normal\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_1_Normal_recovery.npy",
+      "embeddings_shape": [
+        1208,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_1",
+      "condition": "Normal",
+      "duration": "rest",
+      "file_path": "data/ID_1/Normal\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_1_Normal_rest.npy",
+      "embeddings_shape": [
+        1210,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_1",
+      "condition": "Tight",
+      "duration": "12.min",
+      "file_path": "data/ID_1/Tight\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_1_Tight_12_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_1",
+      "condition": "Tight",
+      "duration": "15.min",
+      "file_path": "data/ID_1/Tight\\15.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_1_Tight_15_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_1",
+      "condition": "Tight",
+      "duration": "6.min",
+      "file_path": "data/ID_1/Tight\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_1_Tight_6_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_1",
+      "condition": "Tight",
+      "duration": "recovery",
+      "file_path": "data/ID_1/Tight\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_1_Tight_recovery.npy",
+      "embeddings_shape": [
+        1220,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_1",
+      "condition": "Tight",
+      "duration": "rest",
+      "file_path": "data/ID_1/Tight\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_1_Tight_rest.npy",
+      "embeddings_shape": [
+        1208,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_2",
+      "condition": "Loose",
+      "duration": "12.min",
+      "file_path": "data/ID_2/Loose\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_2_Loose_12_min.npy",
+      "embeddings_shape": [
+        1168,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_2",
+      "condition": "Loose",
+      "duration": "20.min",
+      "file_path": "data/ID_2/Loose\\20.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_2_Loose_20_min.npy",
+      "embeddings_shape": [
+        1198,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_2",
+      "condition": "Loose",
+      "duration": "6.min",
+      "file_path": "data/ID_2/Loose\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_2_Loose_6_min.npy",
+      "embeddings_shape": [
+        1215,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_2",
+      "condition": "Loose",
+      "duration": "recovery",
+      "file_path": "data/ID_2/Loose\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_2_Loose_recovery.npy",
+      "embeddings_shape": [
+        1176,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_2",
+      "condition": "Loose",
+      "duration": "rest",
+      "file_path": "data/ID_2/Loose\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_2_Loose_rest.npy",
+      "embeddings_shape": [
+        1209,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_2",
+      "condition": "Normal",
+      "duration": "12.min",
+      "file_path": "data/ID_2/Normal\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_2_Normal_12_min.npy",
+      "embeddings_shape": [
+        1242,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_2",
+      "condition": "Normal",
+      "duration": "15.min",
+      "file_path": "data/ID_2/Normal\\15.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_2_Normal_15_min.npy",
+      "embeddings_shape": [
+        994,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_2",
+      "condition": "Normal",
+      "duration": "6.min",
+      "file_path": "data/ID_2/Normal\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_2_Normal_6_min.npy",
+      "embeddings_shape": [
+        1206,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_2",
+      "condition": "Normal",
+      "duration": "recovery",
+      "file_path": "data/ID_2/Normal\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_2_Normal_recovery.npy",
+      "embeddings_shape": [
+        1204,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_2",
+      "condition": "Normal",
+      "duration": "rest",
+      "file_path": "data/ID_2/Normal\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_2_Normal_rest.npy",
+      "embeddings_shape": [
+        1214,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_2",
+      "condition": "Tight",
+      "duration": "12.min",
+      "file_path": "data/ID_2/Tight\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_2_Tight_12_min.npy",
+      "embeddings_shape": [
+        1214,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_2",
+      "condition": "Tight",
+      "duration": "15.min",
+      "file_path": "data/ID_2/Tight\\15.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_2_Tight_15_min.npy",
+      "embeddings_shape": [
+        1210,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_2",
+      "condition": "Tight",
+      "duration": "6.min",
+      "file_path": "data/ID_2/Tight\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_2_Tight_6_min.npy",
+      "embeddings_shape": [
+        1243,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_2",
+      "condition": "Tight",
+      "duration": "recovery",
+      "file_path": "data/ID_2/Tight\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_2_Tight_recovery.npy",
+      "embeddings_shape": [
+        1229,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_2",
+      "condition": "Tight",
+      "duration": "rest",
+      "file_path": "data/ID_2/Tight\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_2_Tight_rest.npy",
+      "embeddings_shape": [
+        1206,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_3",
+      "condition": "Loose",
+      "duration": "12.min",
+      "file_path": "data/ID_3/Loose\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_3_Loose_12_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_3",
+      "condition": "Loose",
+      "duration": "6.min",
+      "file_path": "data/ID_3/Loose\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_3_Loose_6_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_3",
+      "condition": "Loose",
+      "duration": "recovery",
+      "file_path": "data/ID_3/Loose\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_3_Loose_recovery.npy",
+      "embeddings_shape": [
+        1208,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_3",
+      "condition": "Loose",
+      "duration": "rest",
+      "file_path": "data/ID_3/Loose\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_3_Loose_rest.npy",
+      "embeddings_shape": [
+        1260,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_3",
+      "condition": "Normal",
+      "duration": "12.min",
+      "file_path": "data/ID_3/Normal\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_3_Normal_12_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_3",
+      "condition": "Normal",
+      "duration": "15.min",
+      "file_path": "data/ID_3/Normal\\15.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_3_Normal_15_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_3",
+      "condition": "Normal",
+      "duration": "6.min",
+      "file_path": "data/ID_3/Normal\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_3_Normal_6_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_3",
+      "condition": "Normal",
+      "duration": "recovery",
+      "file_path": "data/ID_3/Normal\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_3_Normal_recovery.npy",
+      "embeddings_shape": [
+        1208,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_3",
+      "condition": "Normal",
+      "duration": "rest",
+      "file_path": "data/ID_3/Normal\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_3_Normal_rest.npy",
+      "embeddings_shape": [
+        1210,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_3",
+      "condition": "Tight",
+      "duration": "6.min",
+      "file_path": "data/ID_3/Tight\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_3_Tight_6_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_3",
+      "condition": "Tight",
+      "duration": "recovery",
+      "file_path": "data/ID_3/Tight\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_3_Tight_recovery.npy",
+      "embeddings_shape": [
+        1206,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_3",
+      "condition": "Tight",
+      "duration": "rest",
+      "file_path": "data/ID_3/Tight\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_3_Tight_rest.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_4",
+      "condition": "Loose",
+      "duration": "12.min",
+      "file_path": "data/ID_4/Loose\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_4_Loose_12_min.npy",
+      "embeddings_shape": [
+        1213,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_4",
+      "condition": "Loose",
+      "duration": "26.min",
+      "file_path": "data/ID_4/Loose\\26.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_4_Loose_26_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_4",
+      "condition": "Loose",
+      "duration": "6.min",
+      "file_path": "data/ID_4/Loose\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_4_Loose_6_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_4",
+      "condition": "Loose",
+      "duration": "recovery",
+      "file_path": "data/ID_4/Loose\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_4_Loose_recovery.npy",
+      "embeddings_shape": [
+        1210,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_4",
+      "condition": "Loose",
+      "duration": "rest",
+      "file_path": "data/ID_4/Loose\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_4_Loose_rest.npy",
+      "embeddings_shape": [
+        1211,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_4",
+      "condition": "Normal",
+      "duration": "12.min",
+      "file_path": "data/ID_4/Normal\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_4_Normal_12_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_4",
+      "condition": "Normal",
+      "duration": "26.min",
+      "file_path": "data/ID_4/Normal\\26.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_4_Normal_26_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_4",
+      "condition": "Normal",
+      "duration": "6.min",
+      "file_path": "data/ID_4/Normal\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_4_Normal_6_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_4",
+      "condition": "Normal",
+      "duration": "recovery",
+      "file_path": "data/ID_4/Normal\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_4_Normal_recovery.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_4",
+      "condition": "Normal",
+      "duration": "rest",
+      "file_path": "data/ID_4/Normal\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_4_Normal_rest.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_4",
+      "condition": "Tight",
+      "duration": "12.min",
+      "file_path": "data/ID_4/Tight\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_4_Tight_12_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_4",
+      "condition": "Tight",
+      "duration": "26.min",
+      "file_path": "data/ID_4/Tight\\26.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_4_Tight_26_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_4",
+      "condition": "Tight",
+      "duration": "6.min",
+      "file_path": "data/ID_4/Tight\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_4_Tight_6_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_4",
+      "condition": "Tight",
+      "duration": "recovery",
+      "file_path": "data/ID_4/Tight\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_4_Tight_recovery.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_4",
+      "condition": "Tight",
+      "duration": "rest",
+      "file_path": "data/ID_4/Tight\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_4_Tight_rest.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_5",
+      "condition": "Loose",
+      "duration": "12.min",
+      "file_path": "data/ID_5/Loose\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_5_Loose_12_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_5",
+      "condition": "Loose",
+      "duration": "20.min",
+      "file_path": "data/ID_5/Loose\\20.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_5_Loose_20_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_5",
+      "condition": "Loose",
+      "duration": "6.min",
+      "file_path": "data/ID_5/Loose\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_5_Loose_6_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_5",
+      "condition": "Loose",
+      "duration": "recovery",
+      "file_path": "data/ID_5/Loose\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_5_Loose_recovery.npy",
+      "embeddings_shape": [
+        1208,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_5",
+      "condition": "Loose",
+      "duration": "rest",
+      "file_path": "data/ID_5/Loose\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_5_Loose_rest.npy",
+      "embeddings_shape": [
+        1332,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_5",
+      "condition": "Normal",
+      "duration": "12.min",
+      "file_path": "data/ID_5/Normal\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_5_Normal_12_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_5",
+      "condition": "Normal",
+      "duration": "20.min",
+      "file_path": "data/ID_5/Normal\\20.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_5_Normal_20_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_5",
+      "condition": "Normal",
+      "duration": "6.min",
+      "file_path": "data/ID_5/Normal\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_5_Normal_6_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_5",
+      "condition": "Normal",
+      "duration": "recovery",
+      "file_path": "data/ID_5/Normal\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_5_Normal_recovery.npy",
+      "embeddings_shape": [
+        1207,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_5",
+      "condition": "Normal",
+      "duration": "rest",
+      "file_path": "data/ID_5/Normal\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_5_Normal_rest.npy",
+      "embeddings_shape": [
+        779,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_5",
+      "condition": "Tight",
+      "duration": "12.min",
+      "file_path": "data/ID_5/Tight\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_5_Tight_12_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_5",
+      "condition": "Tight",
+      "duration": "15.min",
+      "file_path": "data/ID_5/Tight\\15.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_5_Tight_15_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_5",
+      "condition": "Tight",
+      "duration": "6.min",
+      "file_path": "data/ID_5/Tight\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_5_Tight_6_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_5",
+      "condition": "Tight",
+      "duration": "recovery",
+      "file_path": "data/ID_5/Tight\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_5_Tight_recovery.npy",
+      "embeddings_shape": [
+        1208,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_5",
+      "condition": "Tight",
+      "duration": "rest",
+      "file_path": "data/ID_5/Tight\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_5_Tight_rest.npy",
+      "embeddings_shape": [
+        1207,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_6",
+      "condition": "Loose",
+      "duration": "12.min",
+      "file_path": "data/ID_6/Loose\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_6_Loose_12_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_6",
+      "condition": "Loose",
+      "duration": "20.min",
+      "file_path": "data/ID_6/Loose\\20.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_6_Loose_20_min.npy",
+      "embeddings_shape": [
+        1214,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_6",
+      "condition": "Loose",
+      "duration": "6.min",
+      "file_path": "data/ID_6/Loose\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_6_Loose_6_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_6",
+      "condition": "Loose",
+      "duration": "recovery",
+      "file_path": "data/ID_6/Loose\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_6_Loose_recovery.npy",
+      "embeddings_shape": [
+        1206,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_6",
+      "condition": "Loose",
+      "duration": "rest",
+      "file_path": "data/ID_6/Loose\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_6_Loose_rest.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_6",
+      "condition": "Normal",
+      "duration": "12.min",
+      "file_path": "data/ID_6/Normal\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_6_Normal_12_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_6",
+      "condition": "Normal",
+      "duration": "20.min",
+      "file_path": "data/ID_6/Normal\\20.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_6_Normal_20_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_6",
+      "condition": "Normal",
+      "duration": "6.min",
+      "file_path": "data/ID_6/Normal\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_6_Normal_6_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_6",
+      "condition": "Normal",
+      "duration": "recovery",
+      "file_path": "data/ID_6/Normal\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_6_Normal_recovery.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_6",
+      "condition": "Normal",
+      "duration": "rest",
+      "file_path": "data/ID_6/Normal\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_6_Normal_rest.npy",
+      "embeddings_shape": [
+        1209,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_6",
+      "condition": "Tight",
+      "duration": "12.min",
+      "file_path": "data/ID_6/Tight\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_6_Tight_12_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_6",
+      "condition": "Tight",
+      "duration": "20.min",
+      "file_path": "data/ID_6/Tight\\20.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_6_Tight_20_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_6",
+      "condition": "Tight",
+      "duration": "6.min",
+      "file_path": "data/ID_6/Tight\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_6_Tight_6_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_6",
+      "condition": "Tight",
+      "duration": "recovery",
+      "file_path": "data/ID_6/Tight\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_6_Tight_recovery.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_6",
+      "condition": "Tight",
+      "duration": "rest",
+      "file_path": "data/ID_6/Tight\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_6_Tight_rest.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_26",
+      "condition": "Loose",
+      "duration": "12.min",
+      "file_path": "data/ID_26/Loose\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_26_Loose_12_min.npy",
+      "embeddings_shape": [
+        1267,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_26",
+      "condition": "Loose",
+      "duration": "18.min",
+      "file_path": "data/ID_26/Loose\\18.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_26_Loose_18_min.npy",
+      "embeddings_shape": [
+        1188,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_26",
+      "condition": "Loose",
+      "duration": "23.min",
+      "file_path": "data/ID_26/Loose\\23.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_26_Loose_23_min.npy",
+      "embeddings_shape": [
+        1168,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_26",
+      "condition": "Loose",
+      "duration": "3.min",
+      "file_path": "data/ID_26/Loose\\3.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_26_Loose_3_min.npy",
+      "embeddings_shape": [
+        1187,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_26",
+      "condition": "Loose",
+      "duration": "6.min",
+      "file_path": "data/ID_26/Loose\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_26_Loose_6_min.npy",
+      "embeddings_shape": [
+        1208,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_26",
+      "condition": "Loose",
+      "duration": "recovery",
+      "file_path": "data/ID_26/Loose\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_26_Loose_recovery.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_26",
+      "condition": "Loose",
+      "duration": "rest",
+      "file_path": "data/ID_26/Loose\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_26_Loose_rest.npy",
+      "embeddings_shape": [
+        1209,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_26",
+      "condition": "Normal",
+      "duration": "12.min",
+      "file_path": "data/ID_26/Normal\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_26_Normal_12_min.npy",
+      "embeddings_shape": [
+        1205,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_26",
+      "condition": "Normal",
+      "duration": "18. min",
+      "file_path": "data/ID_26/Normal\\18. min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_26_Normal_18__min.npy",
+      "embeddings_shape": [
+        1195,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_26",
+      "condition": "Normal",
+      "duration": "23.min",
+      "file_path": "data/ID_26/Normal\\23.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_26_Normal_23_min.npy",
+      "embeddings_shape": [
+        621,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_26",
+      "condition": "Normal",
+      "duration": "6.min",
+      "file_path": "data/ID_26/Normal\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_26_Normal_6_min.npy",
+      "embeddings_shape": [
+        1189,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_26",
+      "condition": "Normal",
+      "duration": "Recovery",
+      "file_path": "data/ID_26/Normal\\Recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_26_Normal_Recovery.npy",
+      "embeddings_shape": [
+        1186,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_26",
+      "condition": "Normal",
+      "duration": "rest",
+      "file_path": "data/ID_26/Normal\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_26_Normal_rest.npy",
+      "embeddings_shape": [
+        1208,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_26",
+      "condition": "Tight",
+      "duration": "12.min",
+      "file_path": "data/ID_26/Tight\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_26_Tight_12_min.npy",
+      "embeddings_shape": [
+        1201,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_26",
+      "condition": "Tight",
+      "duration": "18.min",
+      "file_path": "data/ID_26/Tight\\18.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_26_Tight_18_min.npy",
+      "embeddings_shape": [
+        1198,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_26",
+      "condition": "Tight",
+      "duration": "23.min",
+      "file_path": "data/ID_26/Tight\\23.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_26_Tight_23_min.npy",
+      "embeddings_shape": [
+        1207,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_26",
+      "condition": "Tight",
+      "duration": "6.min",
+      "file_path": "data/ID_26/Tight\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_26_Tight_6_min.npy",
+      "embeddings_shape": [
+        1208,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_26",
+      "condition": "Tight",
+      "duration": "recovery",
+      "file_path": "data/ID_26/Tight\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_26_Tight_recovery.npy",
+      "embeddings_shape": [
+        1205,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_26",
+      "condition": "Tight",
+      "duration": "rest",
+      "file_path": "data/ID_26/Tight\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_26_Tight_rest.npy",
+      "embeddings_shape": [
+        1171,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_50",
+      "condition": "Loose",
+      "duration": "12.min",
+      "file_path": "data/ID_50/Loose\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_50_Loose_12_min.npy",
+      "embeddings_shape": [
+        1188,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_50",
+      "condition": "Loose",
+      "duration": "18.min",
+      "file_path": "data/ID_50/Loose\\18.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_50_Loose_18_min.npy",
+      "embeddings_shape": [
+        1215,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_50",
+      "condition": "Loose",
+      "duration": "26.min",
+      "file_path": "data/ID_50/Loose\\26.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_50_Loose_26_min.npy",
+      "embeddings_shape": [
+        1184,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_50",
+      "condition": "Loose",
+      "duration": "3.min",
+      "file_path": "data/ID_50/Loose\\3.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_50_Loose_3_min.npy",
+      "embeddings_shape": [
+        1205,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_50",
+      "condition": "Loose",
+      "duration": "6.min",
+      "file_path": "data/ID_50/Loose\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_50_Loose_6_min.npy",
+      "embeddings_shape": [
+        1209,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_50",
+      "condition": "Loose",
+      "duration": "recovery",
+      "file_path": "data/ID_50/Loose\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_50_Loose_recovery.npy",
+      "embeddings_shape": [
+        1226,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_50",
+      "condition": "Loose",
+      "duration": "rest",
+      "file_path": "data/ID_50/Loose\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_50_Loose_rest.npy",
+      "embeddings_shape": [
+        1214,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_50",
+      "condition": "Normal",
+      "duration": "12.min",
+      "file_path": "data/ID_50/Normal\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_50_Normal_12_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_50",
+      "condition": "Normal",
+      "duration": "18.min",
+      "file_path": "data/ID_50/Normal\\18.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_50_Normal_18_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_50",
+      "condition": "Normal",
+      "duration": "26.min",
+      "file_path": "data/ID_50/Normal\\26.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_50_Normal_26_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_50",
+      "condition": "Normal",
+      "duration": "6.min",
+      "file_path": "data/ID_50/Normal\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_50_Normal_6_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "already_exists"
+    },
+    {
+      "runner_id": "ID_50",
+      "condition": "Normal",
+      "duration": "recovery",
+      "file_path": "data/ID_50/Normal\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_50_Normal_recovery.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_50",
+      "condition": "Normal",
+      "duration": "rest",
+      "file_path": "data/ID_50/Normal\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_50_Normal_rest.npy",
+      "embeddings_shape": [
+        794,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_50",
+      "condition": "Tight",
+      "duration": "12.min",
+      "file_path": "data/ID_50/Tight\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_50_Tight_12_min.npy",
+      "embeddings_shape": [
+        1208,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_50",
+      "condition": "Tight",
+      "duration": "18.min",
+      "file_path": "data/ID_50/Tight\\18.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_50_Tight_18_min.npy",
+      "embeddings_shape": [
+        1208,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_50",
+      "condition": "Tight",
+      "duration": "26.min",
+      "file_path": "data/ID_50/Tight\\26.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_50_Tight_26_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_50",
+      "condition": "Tight",
+      "duration": "6.min",
+      "file_path": "data/ID_50/Tight\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_50_Tight_6_min.npy",
+      "embeddings_shape": [
+        1350,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_50",
+      "condition": "Tight",
+      "duration": "recovery",
+      "file_path": "data/ID_50/Tight\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_50_Tight_recovery.npy",
+      "embeddings_shape": [
+        1205,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_50",
+      "condition": "Tight",
+      "duration": "rest",
+      "file_path": "data/ID_50/Tight\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_50_Tight_rest.npy",
+      "embeddings_shape": [
+        1208,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_74",
+      "condition": "Loose",
+      "duration": "12.min",
+      "file_path": "data/ID_74/Loose\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_74_Loose_12_min.npy",
+      "embeddings_shape": [
+        1207,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_74",
+      "condition": "Loose",
+      "duration": "15.min",
+      "file_path": "data/ID_74/Loose\\15.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_74_Loose_15_min.npy",
+      "embeddings_shape": [
+        1214,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_74",
+      "condition": "Loose",
+      "duration": "6.min",
+      "file_path": "data/ID_74/Loose\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_74_Loose_6_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_74",
+      "condition": "Loose",
+      "duration": "recovery",
+      "file_path": "data/ID_74/Loose\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_74_Loose_recovery.npy",
+      "embeddings_shape": [
+        1209,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_74",
+      "condition": "Loose",
+      "duration": "rest",
+      "file_path": "data/ID_74/Loose\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_74_Loose_rest.npy",
+      "embeddings_shape": [
+        1208,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_74",
+      "condition": "Normal",
+      "duration": "12.min",
+      "file_path": "data/ID_74/Normal\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_74_Normal_12_min.npy",
+      "embeddings_shape": [
+        1204,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_74",
+      "condition": "Normal",
+      "duration": "15.min",
+      "file_path": "data/ID_74/Normal\\15.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_74_Normal_15_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_74",
+      "condition": "Normal",
+      "duration": "6.min",
+      "file_path": "data/ID_74/Normal\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_74_Normal_6_min.npy",
+      "embeddings_shape": [
+        797,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_74",
+      "condition": "Normal",
+      "duration": "recovery",
+      "file_path": "data/ID_74/Normal\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_74_Normal_recovery.npy",
+      "embeddings_shape": [
+        1204,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_74",
+      "condition": "Normal",
+      "duration": "rest",
+      "file_path": "data/ID_74/Normal\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_74_Normal_rest.npy",
+      "embeddings_shape": [
+        1207,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_74",
+      "condition": "Tight",
+      "duration": "12.min",
+      "file_path": "data/ID_74/Tight\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_74_Tight_12_min.npy",
+      "embeddings_shape": [
+        1207,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_74",
+      "condition": "Tight",
+      "duration": "15.min",
+      "file_path": "data/ID_74/Tight\\15.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_74_Tight_15_min.npy",
+      "embeddings_shape": [
+        1205,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_74",
+      "condition": "Tight",
+      "duration": "6.min",
+      "file_path": "data/ID_74/Tight\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_74_Tight_6_min.npy",
+      "embeddings_shape": [
+        1205,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_74",
+      "condition": "Tight",
+      "duration": "recovery",
+      "file_path": "data/ID_74/Tight\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_74_Tight_recovery.npy",
+      "embeddings_shape": [
+        1213,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_74",
+      "condition": "Tight",
+      "duration": "rest",
+      "file_path": "data/ID_74/Tight\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_74_Tight_rest.npy",
+      "embeddings_shape": [
+        1209,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_94",
+      "condition": "Loose",
+      "duration": "12.min",
+      "file_path": "data/ID_94/Loose\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_94_Loose_12_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_94",
+      "condition": "Loose",
+      "duration": "20.min",
+      "file_path": "data/ID_94/Loose\\20.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_94_Loose_20_min.npy",
+      "embeddings_shape": [
+        798,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_94",
+      "condition": "Loose",
+      "duration": "6.min",
+      "file_path": "data/ID_94/Loose\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_94_Loose_6_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_94",
+      "condition": "Loose",
+      "duration": "recovery",
+      "file_path": "data/ID_94/Loose\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_94_Loose_recovery.npy",
+      "embeddings_shape": [
+        1232,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_94",
+      "condition": "Loose",
+      "duration": "rest",
+      "file_path": "data/ID_94/Loose\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_94_Loose_rest.npy",
+      "embeddings_shape": [
+        1205,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_94",
+      "condition": "Normal",
+      "duration": "12.min",
+      "file_path": "data/ID_94/Normal\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_94_Normal_12_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_94",
+      "condition": "Normal",
+      "duration": "18.min",
+      "file_path": "data/ID_94/Normal\\18.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_94_Normal_18_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_94",
+      "condition": "Normal",
+      "duration": "26.min",
+      "file_path": "data/ID_94/Normal\\26.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_94_Normal_26_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_94",
+      "condition": "Normal",
+      "duration": "6.min",
+      "file_path": "data/ID_94/Normal\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_94_Normal_6_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_94",
+      "condition": "Normal",
+      "duration": "recovery",
+      "file_path": "data/ID_94/Normal\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_94_Normal_recovery.npy",
+      "embeddings_shape": [
+        1187,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_94",
+      "condition": "Normal",
+      "duration": "rest",
+      "file_path": "data/ID_94/Normal\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_94_Normal_rest.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_94",
+      "condition": "Tight",
+      "duration": "12.min",
+      "file_path": "data/ID_94/Tight\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_94_Tight_12_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_94",
+      "condition": "Tight",
+      "duration": "20.min",
+      "file_path": "data/ID_94/Tight\\20.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_94_Tight_20_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_94",
+      "condition": "Tight",
+      "duration": "6.min",
+      "file_path": "data/ID_94/Tight\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_94_Tight_6_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_94",
+      "condition": "Tight",
+      "duration": "recovery",
+      "file_path": "data/ID_94/Tight\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_94_Tight_recovery.npy",
+      "embeddings_shape": [
+        1195,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_94",
+      "condition": "Tight",
+      "duration": "rest",
+      "file_path": "data/ID_94/Tight\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_94_Tight_rest.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_115",
+      "condition": "Loose",
+      "duration": "12.min",
+      "file_path": "data/ID_115/Loose\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_115_Loose_12_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_115",
+      "condition": "Loose",
+      "duration": "18.min",
+      "file_path": "data/ID_115/Loose\\18.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_115_Loose_18_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_115",
+      "condition": "Loose",
+      "duration": "23.min",
+      "file_path": "data/ID_115/Loose\\23.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_115_Loose_23_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_115",
+      "condition": "Loose",
+      "duration": "6.min",
+      "file_path": "data/ID_115/Loose\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_115_Loose_6_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_115",
+      "condition": "Loose",
+      "duration": "recovery",
+      "file_path": "data/ID_115/Loose\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_115_Loose_recovery.npy",
+      "embeddings_shape": [
+        1209,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_115",
+      "condition": "Loose",
+      "duration": "rest",
+      "file_path": "data/ID_115/Loose\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_115_Loose_rest.npy",
+      "embeddings_shape": [
+        1207,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_115",
+      "condition": "Normal",
+      "duration": "12.min",
+      "file_path": "data/ID_115/Normal\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_115_Normal_12_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_115",
+      "condition": "Normal",
+      "duration": "18.min",
+      "file_path": "data/ID_115/Normal\\18.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_115_Normal_18_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_115",
+      "condition": "Normal",
+      "duration": "26.min",
+      "file_path": "data/ID_115/Normal\\26.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_115_Normal_26_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_115",
+      "condition": "Normal",
+      "duration": "6.min",
+      "file_path": "data/ID_115/Normal\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_115_Normal_6_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_115",
+      "condition": "Normal",
+      "duration": "recovery",
+      "file_path": "data/ID_115/Normal\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_115_Normal_recovery.npy",
+      "embeddings_shape": [
+        1458,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_115",
+      "condition": "Normal",
+      "duration": "rest",
+      "file_path": "data/ID_115/Normal\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_115_Normal_rest.npy",
+      "embeddings_shape": [
+        1279,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_115",
+      "condition": "Tight",
+      "duration": "12.min",
+      "file_path": "data/ID_115/Tight\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_115_Tight_12_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_115",
+      "condition": "Tight",
+      "duration": "18.min",
+      "file_path": "data/ID_115/Tight\\18.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_115_Tight_18_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_115",
+      "condition": "Tight",
+      "duration": "23.min",
+      "file_path": "data/ID_115/Tight\\23.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_115_Tight_23_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_115",
+      "condition": "Tight",
+      "duration": "6.min",
+      "file_path": "data/ID_115/Tight\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_115_Tight_6_min.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_115",
+      "condition": "Tight",
+      "duration": "recovery",
+      "file_path": "data/ID_115/Tight\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_115_Tight_recovery.npy",
+      "embeddings_shape": [
+        1212,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_115",
+      "condition": "Tight",
+      "duration": "rest",
+      "file_path": "data/ID_115/Tight\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_115_Tight_rest.npy",
+      "embeddings_shape": [
+        1205,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_138",
+      "condition": "Loose",
+      "duration": "12.min",
+      "file_path": "data/ID_138/Loose\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_138_Loose_12_min.npy",
+      "embeddings_shape": [
+        1199,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_138",
+      "condition": "Loose",
+      "duration": "15.min",
+      "file_path": "data/ID_138/Loose\\15.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_138_Loose_15_min.npy",
+      "embeddings_shape": [
+        1207,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_138",
+      "condition": "Loose",
+      "duration": "18.min",
+      "file_path": "data/ID_138/Loose\\18.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_138_Loose_18_min.npy",
+      "embeddings_shape": [
+        1190,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_138",
+      "condition": "Loose",
+      "duration": "20.min",
+      "file_path": "data/ID_138/Loose\\20.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_138_Loose_20_min.npy",
+      "embeddings_shape": [
+        1199,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_138",
+      "condition": "Loose",
+      "duration": "3.min",
+      "file_path": "data/ID_138/Loose\\3.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_138_Loose_3_min.npy",
+      "embeddings_shape": [
+        1213,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_138",
+      "condition": "Loose",
+      "duration": "6.min",
+      "file_path": "data/ID_138/Loose\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_138_Loose_6_min.npy",
+      "embeddings_shape": [
+        1206,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_138",
+      "condition": "Loose",
+      "duration": "9.min",
+      "file_path": "data/ID_138/Loose\\9.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_138_Loose_9_min.npy",
+      "embeddings_shape": [
+        1179,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_138",
+      "condition": "Loose",
+      "duration": "recovery",
+      "file_path": "data/ID_138/Loose\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_138_Loose_recovery.npy",
+      "embeddings_shape": [
+        1210,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_138",
+      "condition": "Loose",
+      "duration": "rest",
+      "file_path": "data/ID_138/Loose\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_138_Loose_rest.npy",
+      "embeddings_shape": [
+        1210,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_138",
+      "condition": "Normal",
+      "duration": "12.min",
+      "file_path": "data/ID_138/Normal\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_138_Normal_12_min.npy",
+      "embeddings_shape": [
+        1208,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_138",
+      "condition": "Normal",
+      "duration": "15.min",
+      "file_path": "data/ID_138/Normal\\15.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_138_Normal_15_min.npy",
+      "embeddings_shape": [
+        1209,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_138",
+      "condition": "Normal",
+      "duration": "3.min",
+      "file_path": "data/ID_138/Normal\\3.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_138_Normal_3_min.npy",
+      "embeddings_shape": [
+        1208,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_138",
+      "condition": "Normal",
+      "duration": "6.min",
+      "file_path": "data/ID_138/Normal\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_138_Normal_6_min.npy",
+      "embeddings_shape": [
+        1210,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_138",
+      "condition": "Normal",
+      "duration": "9.min",
+      "file_path": "data/ID_138/Normal\\9.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_138_Normal_9_min.npy",
+      "embeddings_shape": [
+        1210,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_138",
+      "condition": "Tight",
+      "duration": "12.min",
+      "file_path": "data/ID_138/Tight\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_138_Tight_12_min.npy",
+      "embeddings_shape": [
+        1211,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_138",
+      "condition": "Tight",
+      "duration": "15.min",
+      "file_path": "data/ID_138/Tight\\15.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_138_Tight_15_min.npy",
+      "embeddings_shape": [
+        1212,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_138",
+      "condition": "Tight",
+      "duration": "18.min",
+      "file_path": "data/ID_138/Tight\\18.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_138_Tight_18_min.npy",
+      "embeddings_shape": [
+        1217,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_138",
+      "condition": "Tight",
+      "duration": "20.min",
+      "file_path": "data/ID_138/Tight\\20.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_138_Tight_20_min.npy",
+      "embeddings_shape": [
+        1209,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_138",
+      "condition": "Tight",
+      "duration": "3.min",
+      "file_path": "data/ID_138/Tight\\3.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_138_Tight_3_min.npy",
+      "embeddings_shape": [
+        1210,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_138",
+      "condition": "Tight",
+      "duration": "6.min",
+      "file_path": "data/ID_138/Tight\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_138_Tight_6_min.npy",
+      "embeddings_shape": [
+        1209,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_138",
+      "condition": "Tight",
+      "duration": "9.min",
+      "file_path": "data/ID_138/Tight\\9.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_138_Tight_9_min.npy",
+      "embeddings_shape": [
+        1208,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_138",
+      "condition": "Tight",
+      "duration": "recovery",
+      "file_path": "data/ID_138/Tight\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_138_Tight_recovery.npy",
+      "embeddings_shape": [
+        1208,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_138",
+      "condition": "Tight",
+      "duration": "rest",
+      "file_path": "data/ID_138/Tight\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_138_Tight_rest.npy",
+      "embeddings_shape": [
+        1209,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_170",
+      "condition": "Loose",
+      "duration": "12.min POZOR MOZNA PREDELAT",
+      "file_path": "data/ID_170/Loose\\12.min POZOR MOZNA PREDELAT\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_170_Loose_12_min_POZOR_MOZNA_PREDELAT.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_170",
+      "condition": "Loose",
+      "duration": "6.min POZOR MOZNA PREDELAT",
+      "file_path": "data/ID_170/Loose\\6.min POZOR MOZNA PREDELAT\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_170_Loose_6_min_POZOR_MOZNA_PREDELAT.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_170",
+      "condition": "Loose",
+      "duration": "rest",
+      "file_path": "data/ID_170/Loose\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_170_Loose_rest.npy",
+      "embeddings_shape": [
+        1208,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_170",
+      "condition": "Normal",
+      "duration": "12.min",
+      "file_path": "data/ID_170/Normal\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_170_Normal_12_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_170",
+      "condition": "Normal",
+      "duration": "18.min",
+      "file_path": "data/ID_170/Normal\\18.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_170_Normal_18_min.npy",
+      "embeddings_shape": [
+        1209,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_170",
+      "condition": "Normal",
+      "duration": "6.min",
+      "file_path": "data/ID_170/Normal\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_170_Normal_6_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_170",
+      "condition": "Normal",
+      "duration": "recovery",
+      "file_path": "data/ID_170/Normal\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_170_Normal_recovery.npy",
+      "embeddings_shape": [
+        1210,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_170",
+      "condition": "Normal",
+      "duration": "rest",
+      "file_path": "data/ID_170/Normal\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_170_Normal_rest.npy",
+      "embeddings_shape": [
+        1210,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_170",
+      "condition": "Tight",
+      "duration": "12.min",
+      "file_path": "data/ID_170/Tight\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_170_Tight_12_min.npy",
+      "embeddings_shape": [
+        1211,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_170",
+      "condition": "Tight",
+      "duration": "18.min",
+      "file_path": "data/ID_170/Tight\\18.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_170_Tight_18_min.npy",
+      "embeddings_shape": [
+        1189,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_170",
+      "condition": "Tight",
+      "duration": "3.min",
+      "file_path": "data/ID_170/Tight\\3.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_170_Tight_3_min.npy",
+      "embeddings_shape": [
+        1215,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_170",
+      "condition": "Tight",
+      "duration": "6.min",
+      "file_path": "data/ID_170/Tight\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_170_Tight_6_min.npy",
+      "embeddings_shape": [
+        1206,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_170",
+      "condition": "Tight",
+      "duration": "9.min",
+      "file_path": "data/ID_170/Tight\\9.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_170_Tight_9_min.npy",
+      "embeddings_shape": [
+        1210,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_170",
+      "condition": "Tight",
+      "duration": "Recovery After",
+      "file_path": "data/ID_170/Tight\\Recovery After\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_170_Tight_Recovery_After.npy",
+      "embeddings_shape": [
+        1190,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_170",
+      "condition": "Tight",
+      "duration": "rest",
+      "file_path": "data/ID_170/Tight\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_170_Tight_rest.npy",
+      "embeddings_shape": [
+        1212,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_191",
+      "condition": "Loose",
+      "duration": "12.min",
+      "file_path": "data/ID_191/Loose\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_191_Loose_12_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_191",
+      "condition": "Loose",
+      "duration": "20.min",
+      "file_path": "data/ID_191/Loose\\20.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_191_Loose_20_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_191",
+      "condition": "Loose",
+      "duration": "6.min",
+      "file_path": "data/ID_191/Loose\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_191_Loose_6_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_191",
+      "condition": "Loose",
+      "duration": "recovery",
+      "file_path": "data/ID_191/Loose\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_191_Loose_recovery.npy",
+      "embeddings_shape": [
+        1209,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_191",
+      "condition": "Loose",
+      "duration": "rest",
+      "file_path": "data/ID_191/Loose\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_191_Loose_rest.npy",
+      "embeddings_shape": [
+        1205,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_191",
+      "condition": "Normal",
+      "duration": "12.min",
+      "file_path": "data/ID_191/Normal\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_191_Normal_12_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_191",
+      "condition": "Normal",
+      "duration": "20.min",
+      "file_path": "data/ID_191/Normal\\20.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_191_Normal_20_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_191",
+      "condition": "Normal",
+      "duration": "6.min",
+      "file_path": "data/ID_191/Normal\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_191_Normal_6_min.npy",
+      "embeddings_shape": [
+        1224,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_191",
+      "condition": "Normal",
+      "duration": "recovery",
+      "file_path": "data/ID_191/Normal\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_191_Normal_recovery.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_191",
+      "condition": "Normal",
+      "duration": "rest",
+      "file_path": "data/ID_191/Normal\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_191_Normal_rest.npy",
+      "embeddings_shape": [
+        1209,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_191",
+      "condition": "Tight",
+      "duration": "12.min",
+      "file_path": "data/ID_191/Tight\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_191_Tight_12_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_191",
+      "condition": "Tight",
+      "duration": "20.min",
+      "file_path": "data/ID_191/Tight\\20.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_191_Tight_20_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_191",
+      "condition": "Tight",
+      "duration": "6.min",
+      "file_path": "data/ID_191/Tight\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_191_Tight_6_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_191",
+      "condition": "Tight",
+      "duration": "recovery",
+      "file_path": "data/ID_191/Tight\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_191_Tight_recovery.npy",
+      "embeddings_shape": [
+        799,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_191",
+      "condition": "Tight",
+      "duration": "rest",
+      "file_path": "data/ID_191/Tight\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_191_Tight_rest.npy",
+      "embeddings_shape": [
+        1205,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_211",
+      "condition": "Loose",
+      "duration": "12.min",
+      "file_path": "data/ID_211/Loose\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_211_Loose_12_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_211",
+      "condition": "Loose",
+      "duration": "18.min",
+      "file_path": "data/ID_211/Loose\\18.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_211_Loose_18_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_211",
+      "condition": "Loose",
+      "duration": "6.min",
+      "file_path": "data/ID_211/Loose\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_211_Loose_6_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_211",
+      "condition": "Loose",
+      "duration": "recovery",
+      "file_path": "data/ID_211/Loose\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_211_Loose_recovery.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_211",
+      "condition": "Loose",
+      "duration": "rest",
+      "file_path": "data/ID_211/Loose\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_211_Loose_rest.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_211",
+      "condition": "Normal",
+      "duration": "12.min",
+      "file_path": "data/ID_211/Normal\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_211_Normal_12_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_211",
+      "condition": "Normal",
+      "duration": "18.min",
+      "file_path": "data/ID_211/Normal\\18.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_211_Normal_18_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_211",
+      "condition": "Normal",
+      "duration": "6.min",
+      "file_path": "data/ID_211/Normal\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_211_Normal_6_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_211",
+      "condition": "Normal",
+      "duration": "recovery",
+      "file_path": "data/ID_211/Normal\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_211_Normal_recovery.npy",
+      "embeddings_shape": [
+        1211,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_211",
+      "condition": "Normal",
+      "duration": "rest",
+      "file_path": "data/ID_211/Normal\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_211_Normal_rest.npy",
+      "embeddings_shape": [
+        1308,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_211",
+      "condition": "Tight",
+      "duration": "12.min",
+      "file_path": "data/ID_211/Tight\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_211_Tight_12_min.npy",
+      "embeddings_shape": [
+        599,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_211",
+      "condition": "Tight",
+      "duration": "18.min",
+      "file_path": "data/ID_211/Tight\\18.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_211_Tight_18_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_211",
+      "condition": "Tight",
+      "duration": "6.min",
+      "file_path": "data/ID_211/Tight\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_211_Tight_6_min.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_211",
+      "condition": "Tight",
+      "duration": "recovery",
+      "file_path": "data/ID_211/Tight\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_211_Tight_recovery.npy",
+      "embeddings_shape": [
+        999,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_211",
+      "condition": "Tight",
+      "duration": "rest",
+      "file_path": "data/ID_211/Tight\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_211_Tight_rest.npy",
+      "embeddings_shape": [
+        1213,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_231",
+      "condition": "Loose",
+      "duration": "12.min",
+      "file_path": "data/ID_231/Loose\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_231_Loose_12_min.npy",
+      "embeddings_shape": [
+        532,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_231",
+      "condition": "Loose",
+      "duration": "15.min",
+      "file_path": "data/ID_231/Loose\\15.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_231_Loose_15_min.npy",
+      "embeddings_shape": [
+        1262,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_231",
+      "condition": "Loose",
+      "duration": "3.min",
+      "file_path": "data/ID_231/Loose\\3.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_231_Loose_3_min.npy",
+      "embeddings_shape": [
+        1191,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_231",
+      "condition": "Loose",
+      "duration": "recovery",
+      "file_path": "data/ID_231/Loose\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_231_Loose_recovery.npy",
+      "embeddings_shape": [
+        1211,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_231",
+      "condition": "Loose",
+      "duration": "rest",
+      "file_path": "data/ID_231/Loose\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_231_Loose_rest.npy",
+      "embeddings_shape": [
+        1213,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_231",
+      "condition": "Normal",
+      "duration": "12.min",
+      "file_path": "data/ID_231/Normal\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_231_Normal_12_min.npy",
+      "embeddings_shape": [
+        1209,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_231",
+      "condition": "Normal",
+      "duration": "15.min",
+      "file_path": "data/ID_231/Normal\\15.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_231_Normal_15_min.npy",
+      "embeddings_shape": [
+        1213,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_231",
+      "condition": "Normal",
+      "duration": "3.min",
+      "file_path": "data/ID_231/Normal\\3.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_231_Normal_3_min.npy",
+      "embeddings_shape": [
+        1209,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_231",
+      "condition": "Normal",
+      "duration": "recovery",
+      "file_path": "data/ID_231/Normal\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_231_Normal_recovery.npy",
+      "embeddings_shape": [
+        1205,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_231",
+      "condition": "Normal",
+      "duration": "rest",
+      "file_path": "data/ID_231/Normal\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_231_Normal_rest.npy",
+      "embeddings_shape": [
+        1208,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_231",
+      "condition": "Tight",
+      "duration": "12.min",
+      "file_path": "data/ID_231/Tight\\12.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_231_Tight_12_min.npy",
+      "embeddings_shape": [
+        1210,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_231",
+      "condition": "Tight",
+      "duration": "15.min",
+      "file_path": "data/ID_231/Tight\\15.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_231_Tight_15_min.npy",
+      "embeddings_shape": [
+        655,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_231",
+      "condition": "Tight",
+      "duration": "6.min",
+      "file_path": "data/ID_231/Tight\\6.min\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_231_Tight_6_min.npy",
+      "embeddings_shape": [
+        1202,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_231",
+      "condition": "Tight",
+      "duration": "recovery",
+      "file_path": "data/ID_231/Tight\\recovery\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_231_Tight_recovery.npy",
+      "embeddings_shape": [
+        1210,
+        1,
+        26
+      ],
+      "status": "success"
+    },
+    {
+      "runner_id": "ID_231",
+      "condition": "Tight",
+      "duration": "rest",
+      "file_path": "data/ID_231/Tight\\rest\\3D Point Tracks.emt",
+      "embeddings_path": "ml/ml_data/embeddings_seq5_step3_20251123\\embeddings_ID_231_Tight_rest.npy",
+      "embeddings_shape": [
+        1206,
+        1,
+        26
+      ],
+      "status": "success"
+    }
+  ]
+}

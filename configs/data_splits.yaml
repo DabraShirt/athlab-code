@@ -1,0 +1,25 @@
+# Data Split Configuration for GNN Autoencoder Training
+# This defines which data is used for training vs exploration
+
+training_data:
+  sources: ALL
+
+# Configuration for splitting training data into train/val/test
+training_splits:
+  test_size: 0.20      # 20% for testing
+  val_size: 0.20       # 20% for validation
+  train_size: 0.60     # 60% for training
+
+  # CRITICAL: Stratification strategy to prevent data leakage
+  # Options:
+  #   "subject" - Split by subject ID (RECOMMENDED for generalization to new subjects)
+  #   "recording" - Split by recording ID (may have subject-level leakage)
+  #   "random" - Random split (NOT RECOMMENDED - has data leakage)
+  stratify_by: "subject"  # Ensures subjects are balanced across splits - PREVENTS SUBJECT-LEVEL DATA LEAKAGE
+
+  random_seed: 42
+
+# Data leakage prevention notes:
+# - Subject-aware splitting ensures the model is tested on completely new subjects
+# - This prevents the model from learning subject-specific body geometry rather than breathing patterns
+# - Critical for proper evaluation of model generalization capabilities
