@@ -3,15 +3,7 @@ import plotly.graph_objects as go
 from torch_geometric.data import Data
 
 
-def plot_3d_graph(
-    data: Data,
-    frame_idx: int = 0,
-    show_node_labels: bool = False,
-    show_edge_labels: bool = True,
-    show_node_distances: bool = False,
-    label_offset: float = 0.05,
-    nodes_to_show: list = None,
-) -> go.Figure:
+def plot_3d_graph(data: Data, frame_idx: int = 0, show_node_labels: bool = False, show_edge_labels: bool = True, show_node_distances: bool = False, label_offset: float = 0.05, nodes_to_show: list = None, color_by_region: bool = False, region_definitions: dict = None) -> go.Figure:
     """
     Plot a 3D network graph using Plotly with edge distances displayed.
 
@@ -37,6 +29,10 @@ def plot_3d_graph(
         The offset distance for label positioning, by default 0.05.
     nodes_to_show : list, optional
         List of node indices (0-based) to visualize. If None, show all nodes, by default None.
+    color_by_region : bool, optional
+        Whether to color nodes by anatomical regions, by default False.
+    region_definitions : dict, optional
+        Dictionary defining anatomical regions with 1-based node indices, by default None.
 
     Returns
     -------
@@ -91,19 +87,7 @@ def plot_3d_graph(
                 mid_z = (start_pos[2] + end_pos[2]) / 2
 
                 # Add text annotation for distance
-                edge_texts.append(
-                    go.Scatter3d(
-                        x=[mid_x],
-                        y=[mid_y],
-                        z=[mid_z],
-                        mode="text",
-                        text=[f"{distances[i][0]:.1f}"],
-                        textposition="middle center",
-                        hoverinfo="none",
-                        showlegend=False,
-                        textfont=dict(color="green", size=10),
-                    )
-                )
+                edge_texts.append(go.Scatter3d(x=[mid_x], y=[mid_y], z=[mid_z], mode="text", text=[f"{distances[i][0]:.1f}"], textposition="middle center", hoverinfo="none", showlegend=False, textfont=dict(color="green", size=10)))
 
     # Add node labels (node IDs) if show_node_labels is True - only for visible nodes
     if show_node_labels:
@@ -112,19 +96,7 @@ def plot_3d_graph(
             # Place labels directly on the nodes (no offset)
 
             # Add text annotation for node ID
-            node_texts.append(
-                go.Scatter3d(
-                    x=[pos[0]],
-                    y=[pos[1]],
-                    z=[pos[2]],
-                    mode="text",
-                    text=[f"{i + 1}"],  # Node ID (1-indexed)
-                    textposition="middle center",
-                    hoverinfo="none",
-                    showlegend=False,
-                    textfont=dict(color="white", size=11, family="Arial Black"),
-                )
-            )
+            node_texts.append(go.Scatter3d(x=[pos[0]], y=[pos[1]], z=[pos[2]], mode="text", text=[f"{i + 1}"], textposition="middle center", hoverinfo="none", showlegend=False, textfont=dict(color="white", size=11, family="Arial Black")))  # Node ID (1-indexed)
 
     # Add distance from origin to each node (only if show_node_distances is True) - only for visible nodes
     if show_node_distances:
@@ -139,48 +111,81 @@ def plot_3d_graph(
             offset_z = pos[2] + label_offset * 1.5
 
             # Add text annotation for node distance from origin
-            node_distance_texts.append(
-                go.Scatter3d(
-                    x=[offset_x],
-                    y=[offset_y],
-                    z=[offset_z],
-                    mode="text",
-                    text=[f"{node_distance:.1f}"],
-                    textposition="middle center",
-                    hoverinfo="none",
-                    showlegend=False,
-                    textfont=dict(color="green", size=6),
-                )
-            )
+            node_distance_texts.append(go.Scatter3d(x=[offset_x], y=[offset_y], z=[offset_z], mode="text", text=[f"{node_distance:.1f}"], textposition="middle center", hoverinfo="none", showlegend=False, textfont=dict(color="green", size=6)))
 
     # Create edges trace
-    edges_trace = go.Scatter3d(
-        x=edge_x,
-        y=edge_y,
-        z=edge_z,
-        mode="lines",
-        line=dict(color="lightgray", width=3),
-        hoverinfo="none",
-        showlegend=False,
-    )
+    edges_trace = go.Scatter3d(x=edge_x, y=edge_y, z=edge_z, mode="lines", line=dict(color="lightgray", width=3), hoverinfo="none", showlegend=False)
 
     # Create nodes trace - only for visible nodes
     visible_positions = positions[list(nodes_to_show_set)]
     visible_indices = list(nodes_to_show_set)
 
-    nodes_trace = go.Scatter3d(
-        x=visible_positions[:, 0],
-        y=visible_positions[:, 1],
-        z=visible_positions[:, 2],
-        mode="markers",
-        marker=dict(size=12, color="darkblue", symbol="circle", line=dict(width=2, color="navy")),
-        hovertext=[f"Point {i + 1}<br>X: {positions[i][0]:.1f}<br>Y: {positions[i][1]:.1f}<br>Z: {positions[i][2]:.1f}<br>Distance: {np.sqrt(positions[i][0]**2 + positions[i][1]**2 + positions[i][2]**2):.1f}" for i in visible_indices],
-        hoverinfo="text",
-        showlegend=False,
-    )
+    if color_by_region and region_definitions:
+        # Define colors for each region
+        region_colors = {"rib_cage": "red", "abdominal": "green", "abdomen": "blue"}
+
+        # Create separate traces for each region
+        node_traces = []
+
+        for region_name, point_list in region_definitions.items():
+            # Convert 1-based indices to 0-based
+            region_points_0based = [p - 1 for p in point_list]
+            # Find intersection with visible nodes
+            region_visible = [i for i in visible_indices if i in region_points_0based]
+
+            if region_visible:  # Only create trace if there are visible points in this region
+                region_positions = positions[region_visible]
+
+                region_trace = go.Scatter3d(
+                    x=region_positions[:, 0],
+                    y=region_positions[:, 1],
+                    z=region_positions[:, 2],
+                    mode="markers",
+                    marker=dict(size=12, color=region_colors.get(region_name, "darkblue"), symbol="circle", line=dict(width=2, color="navy")),
+                    hovertext=[f"Point {i + 1}<br>Region: {region_name}<br>X: {positions[i][0]:.1f}<br>Y: {positions[i][1]:.1f}<br>Z: {positions[i][2]:.1f}<br>Distance: {np.sqrt(positions[i][0]**2 + positions[i][1]**2 + positions[i][2]**2):.1f}" for i in region_visible],
+                    hoverinfo="text",
+                    name=region_name.replace("_", " ").title(),
+                    showlegend=True,
+                )
+                node_traces.append(region_trace)
+
+        # Handle any points not in any region
+        all_region_points = set()
+        for point_list in region_definitions.values():
+            all_region_points.update([p - 1 for p in point_list])  # Convert to 0-based
+
+        unassigned_points = [i for i in visible_indices if i not in all_region_points]
+        if unassigned_points:
+            unassigned_positions = positions[unassigned_points]
+
+            unassigned_trace = go.Scatter3d(
+                x=unassigned_positions[:, 0],
+                y=unassigned_positions[:, 1],
+                z=unassigned_positions[:, 2],
+                mode="markers",
+                marker=dict(size=12, color="gray", symbol="circle", line=dict(width=2, color="darkgray")),
+                hovertext=[f"Point {i + 1}<br>Region: Unassigned<br>X: {positions[i][0]:.1f}<br>Y: {positions[i][1]:.1f}<br>Z: {positions[i][2]:.1f}<br>Distance: {np.sqrt(positions[i][0]**2 + positions[i][1]**2 + positions[i][2]**2):.1f}" for i in unassigned_points],
+                hoverinfo="text",
+                name="Unassigned",
+                showlegend=True,
+            )
+            node_traces.append(unassigned_trace)
+    else:
+        # Original single-color nodes trace
+        nodes_trace = go.Scatter3d(
+            x=visible_positions[:, 0],
+            y=visible_positions[:, 1],
+            z=visible_positions[:, 2],
+            mode="markers",
+            marker=dict(size=12, color="darkblue", symbol="circle", line=dict(width=2, color="navy")),
+            hovertext=[f"Point {i + 1}<br>X: {positions[i][0]:.1f}<br>Y: {positions[i][1]:.1f}<br>Z: {positions[i][2]:.1f}<br>Distance: {np.sqrt(positions[i][0]**2 + positions[i][1]**2 + positions[i][2]**2):.1f}" for i in visible_indices],
+            hoverinfo="text",
+            showlegend=False,
+        )
+        node_traces = [nodes_trace]
 
     # Combine all traces
-    traces = [edges_trace, nodes_trace] + edge_texts + node_texts + node_distance_texts
+    traces = [edges_trace] + node_traces + edge_texts + node_texts + node_distance_texts
 
     # Create the figure
     fig = go.Figure(data=traces)
@@ -190,14 +195,8 @@ def plot_3d_graph(
         title="3D Network Graph",
         width=1200,  # Make the graph much wider for notebook display
         height=800,  # Make the graph much taller for notebook display
-        scene=dict(
-            xaxis_title="X",
-            yaxis_title="Y",
-            zaxis_title="Z",
-            aspectmode="data",
-            camera=dict(eye=dict(x=1.2, y=1.2, z=1.2)),
-        ),
-        showlegend=False,
+        scene=dict(xaxis_title="X", yaxis_title="Y", zaxis_title="Z", aspectmode="data", camera=dict(eye=dict(x=1.2, y=1.2, z=1.2))),
+        showlegend=color_by_region and region_definitions is not None,
     )
 
     return fig
